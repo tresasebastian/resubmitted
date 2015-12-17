@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Assignment 1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="jscripit.js"></script>
+	</head>
+	
+	<body>
+		<center><img src="2.jpg" height="100"  width="600" class="img-responsive"></center>
+			<div class="container">
+				<div class="jumbotron">
+					<h1><b><font color="orange">Conestoga Pizzeria</font></b></h1> 
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<h3><b><i><font color="red">Enter your Details</i></b></h3>
+							<form data-toggle="validator" role="form" action='new.html' method='post'>
+								<div class="form-group">
+									<label for="Name" class="control-label">Name:</label>
+									<input type="text" class="form-control" id="Name" placeholder="Name" required>
+								</div>
+								<div class="form-group">
+									<label for="Address" class="control-label">Address:</label>
+									<input type="text" class="form-control" id="Address" placeholder="Address" required>
+								</div>
+								<div class="form-group">
+									<label for="postal code">Postal Code:</label>
+									<input type="postal code" class="form-control" id="postal code" placeholder="Postal Code" required>
+								</div>
+								<div class="form-group">
+									<label for="city">City:</label>
+									<input type="city" class="form-control" id="city" placeholder="City" required>
+								</div>
+								<div class="form-group">
+									<label for="prov">Province:</label>
+									<select class="form-control" id="prov" required>
+										<option>Select</option>
+										<option>Ontario</option>
+										<option>Manitoba</option>
+										<option>Quebec</option>
+										<option>Saskatchewan</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="telephone">Telephone:</label>
+									<input type="number" class="form-control" id="telephone" placeholder="Telephone" maxlength="10"  required>
+										<div class="help-block with-errors">
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail" class="control-label">Email</label>
+									<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="email address is invalid" required>
+									<div class="help-block with-errors"></div>
+								</div><br>
+  
+								
+					
+				</div>
+				
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+						<h3><b><i><font color="green">Make an Order</font</b></i></h3>
+								  
+								<div class="form-group">
+									<label for="size">Type of Pizza:</label>
+										<select class="form-control" id="size">
+											<option>Select</option>
+											<option>Small $5</option>
+											<option>Medium $10</option>
+											<option>Large $15</option>
+											<option>x-Large $20</option>
+										</select>
+								</div>
+								<div class="form-group">
+									<h4>Crust types:</h4>
+	  
+                                    <label class="radio-inline">
+                                      <input type="radio" name="optradio">Hand-tossed
+                                    </label>
+                                    <label class="radio-inline">
+                                       <input type="radio" name="optradio">Pan
+                                    </label>
+                                    <label class="radio-inline">
+                                       <input type="radio" name="optradio">Stuffed
+                                    </label>
+	                                <label class="radio-inline">
+                                       <input type="radio" name="optradio">Thin
+                                    </label>
+								</div>
+								<div class="form-group">
+									<label for="top">Topping 1:</label>
+										<select class="form-control" id="top">
+											<option>Select</option>
+											<option>Pepperoni</option>
+											<option>Bacon</option>
+											<option>Chicken</option>
+											<option>Onion</option>
+											<option>Tomato</option>
+											<option>Green Pepper</option>
+											<option>Italian sausage</option>
+											<option>Green olives</option>
+											<option>Black olives</option>
+											<option>Mushroom</option>
+										</select>
+								</div>
+								<label for="atop"> Additional Topping:</label>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Pepperoni</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Chicken</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Bacon</label>
+									</div>
+   
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Onion</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Tomato</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Green Pepper</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Black olives</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Green Olives</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Italian sausage</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Mushroom</label>
+									</div>
+									<br>
+								
+									<div class="form-group">
+										<button class="btn btn-danger" type="submit">Submit</button>
+									<button class="btn btn-danger" type="reset">Reset</button></div>
+							</form>
+						
+					</div>
+	
+				</div>
+			</div>
+
+	</body>
+</html>
